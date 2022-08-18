@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<div class="page_body">
+<h1>Dashboard</h1>
+
+<h2>Welcome {{username}}</h2>
+<a href="{{ url_for('logout')}}">Logout</a>
+
+</div>
+
+
+
+{% endblock %}

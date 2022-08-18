@@ -1,0 +1,46 @@
+<!-- {% extends 'base.html' %} -->
+
+
+<!-- {% block body%} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pleiades</title>
+  <link rel="stylesheet" href="../static/css/login_.css">
+  <link rel= "icon" href="../img/logo_2.png" type="imges/icon">
+
+</head>
+<body>
+  <div class="page_body">
+    <section>
+        <form method="post" class="log-form" action="action.php">
+          <div class="heading-container">
+            <p>Please enter your login details</p>
+          </div>
+          <div class="group log-input">
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="group log-input">
+            <input type="password" name="password" placeholder="Password" required>
+          </div>
+          <div class="group form-link ">
+            <span>
+            <input type="checkbox">Remember Me
+            </span>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <div class="group">
+            <button type="submit" class="btn">LOGIN</button>
+          </div>
+        </form>
+      </section>
+</div>
+
+</body>
+</html>
+
+
+<!-- {% endblock %} -->

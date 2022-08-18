@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/a13a8d8611.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="{{ url_for('index')}}"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="#databord" ><i class="fa-solid fa-database"></i> DataBorard</a>
+            <a href="contact.html">Contact</i></a>
+            <a href="{{ url_for('terminal')}}">Plus</a>
+            <a href="#add">New 2</a>
+
+        <div class="topnav-right">
+            <a href="searchQuary.html">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+            </a>
+
+            <a href="{{ url_for('login_credentials')}}" id="signOut">
+                <abbr title="Sign out"><i class="fa-solid fa-right-to-bracket"></i></abbr>
+            </a> 
+
+            <div class="dropdown">
+                
+                <button class="dropbtn">
+                    <abbr title="More information">
+                        <i class="fa-solid fa-bars"></i>
+                    </abbr></i>
+                </button> 
+                <div class="dropdown-content">
+                        <a href="#link1">Link 1</a>            
+                        <a href="#link2">Link 2</a>
+                        <a href="#link3">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    {% block head %}
+    {% endblock %}
+
+    {% block body %}
+    {% endblock %}
+</body>
+</html>

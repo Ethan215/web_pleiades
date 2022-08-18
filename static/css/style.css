@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Consolas;
+    src: url('./Consolas.ttf');
+
+
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#000636;
+    overflow: hidden;
+    text-transform: uppercase;
+    border-style: none;
+    border-color: whitesmoke;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-size: 30px;
+    display: fix;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+    background-color: #000636;
+    overflow: hidden;
+    text-shadow:
+    0 0 0px white, 0 0 10px white,
+    0 0 0px white, 0 0 0px white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  opacity: 0.8;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #000636;
+    color: #ddd;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.dropdown{
+
+    overflow: hidden;
+    /* position: relative; */
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+/* Dropdown content (hidden by default) */
+.dropdown:hover .dropbtn {
+    background-color: #b3b3b3;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    background-color: #000636;
+    color: #ddd;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+#signOut{
+    float: right;
+    border: none;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 15px 16px;
+    background-color: inherit;
+    font-size: 16px;
+    margin: 0; /* Important for vertical align on mobile phones */
+
+}
+#signOut:hover{
+    background-color: #ff0000;
+}
+
+
+
+body {
+
+    background-color: #000636;
+    color: lightcoral;
+    font-family: Consolas;
+
+}
+
+.page_body{
+
+    background-color: #000636;
+    color: lightcoral;
+    font-family: Consolas;
+    text-shadow:
+    0 0 0px lightcoral, 0 0 10px lightcoral,
+    0 0 0px lightcoral, 0 0 0px lightcoral;
+    border-style: solid;
+    border-color: #f08080;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#userInput {
+    background-color: #000636;
+    color: lightcoral;
+    font-family: Consolas;
+    font-size: 15px;
+    border: 0px;
+    outline: none;
+    line-height: 200%;
+    text-shadow:
+    0 0 0px lightcoral, 0 0 10px lightcoral,
+    0 0 0px lightcoral, 0 0 0px lightcoral;
+  }
